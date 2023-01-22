@@ -18,10 +18,12 @@ public class Pizza {
             this.bill=this.bill+"Base Price Of The Pizza "+300+"\n";
         }
         else
-        {
-            this.price+=400;
+        {   
+
+            this.price=this.price+400;
             this.bill=this.bill+"Base Price Of The Pizza "+400+"\n";
         }
+        
     }
 
     // getter and setter for price
@@ -78,7 +80,7 @@ public class Pizza {
         {
             if(!this.extraTopping)
             {
-                this.price=120;
+                this.price+=120;
                 this.bill+="Extra Toppings Added: "+120+"\n";
                 this.extraTopping=true;
             }
