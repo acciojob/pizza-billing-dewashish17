@@ -11,7 +11,7 @@ public class Main {
     //System.out.println(dp.getPrice());
 
     Pizza p = new Pizza(false);
-    System.out.println(p.getPrice());
+    
     p.addExtraCheese();
     p.addExtraToppings();
     p.addTakeaway();
